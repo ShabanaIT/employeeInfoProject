@@ -89,7 +89,7 @@ public class Employee_Info_Update extends Base{
 		
 		String s= getAttributeValue(By.xpath("//input[@name='contact']"), "value" );
 	    assertEquals("333333",s); 
-	    System.out.println(s);
+	    System.out.println("Attribute value is "+s);
 	}
 
 }
