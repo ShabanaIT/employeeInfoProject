@@ -1,6 +1,6 @@
-#Author:shabana
 Feature: Employee Info Update Functionalities
 
+@smoke
 Scenario: Login as an Employee
 Given I am in Landing Home Page
 When I Click on Loginn

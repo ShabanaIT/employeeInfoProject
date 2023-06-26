@@ -4,8 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 public class Base {
 	
-	protected static WebDriver driver; //default
-	
+	protected static WebDriver driver; 	
 	public static void navigateURL(String url) {
 		driver.get(url);
 	}
@@ -24,9 +23,9 @@ public class Base {
 	}
 	
 	public static String getElementText(By locator) {
-		//Get the Text of that Element (H3) Online Access
+		
 		WebElement element =  driver.findElement( locator );
-		//get the text of that element
+		
 		String s = element.getText();	
 		return s;
 	}
